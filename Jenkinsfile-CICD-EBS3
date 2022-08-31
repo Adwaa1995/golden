@@ -4,7 +4,7 @@ pipeline {
         DOCKERHUB_CREDENTIALS=credentials('pro')
         AWS_ACCESS_KEY_ID     = credentials('Access-key-ID-a')
         AWS_SECRET_ACCESS_KEY = credentials('Secret-access-key-a')
-        ARTIFACT_NAME = 'goldenWastedd-0.0.1-SNAPSHOT.jar'
+        ARTIFACT_NAME = 'goldenWastedd-0.0.1-SNAPSHOT.json'
         AWS_S3_BUCKET = 'adwaa-random'
         AWS_EB_APP_NAME = 'Adwaa-TC'
         AWS_EB_ENVIRONMENT_NAME = 'Adwaatc-env-1'
