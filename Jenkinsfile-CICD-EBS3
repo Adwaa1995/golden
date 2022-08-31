@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS=credentials('pro')
-        AWS_ACCESS_KEY_ID     = credentials('Access-key-ID')
-        AWS_SECRET_ACCESS_KEY = credentials('Secret-access-key')
+        AWS_ACCESS_KEY_ID     = credentials('Access-key-ID-a')
+        AWS_SECRET_ACCESS_KEY = credentials('Secret-access-key-a')
         ARTIFACT_NAME = 'goldenWastedd-0.0.1-SNAPSHOT.jar'
         AWS_S3_BUCKET = 'adwaa-random'
         AWS_EB_APP_NAME = 'Adwaa-TC'
